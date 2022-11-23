@@ -1,0 +1,427 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/*HEADER*/
+header {
+    margin-bottom: 8%;
+}
+.navbar-toggler {
+    border: none !important;
+}
+.navbar-brand :hover {
+    width: 105%;
+    transition-duration: .6s;
+}
+
+/*HOME*/
+.muchasgracias {
+    background-image: url(img/fondorojo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.muchasgracias h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14vh;
+    text-decoration: black;
+    letter-spacing: 2vh;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-shadow: 6px 6px 15px rgb(49, 49, 49);
+}
+.muchasgracias p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3vh;
+    text-decoration: black;
+    text-align: justify;
+}
+
+.vermas {
+    font-size: 3vh;
+    animation-name: rotbtn;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    position: relative;   
+}
+@keyframes rotbtn {
+    0%{left: 300px;}
+    100% {left: 0px;}
+}
+.vermas :hover {
+    font-size: 3vh;
+}  
+
+/*MOMENTOS*/
+.momento img {
+    width: 80%;
+}
+.momento {
+    background-color: #E83C3D;
+    margin-bottom: 4vh;
+} 
+.momento h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10vh;
+    text-decoration: black;
+}
+.momento p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.7vh;
+    text-decoration: black;
+    text-align: justify;  
+}
+.momentoder {
+    animation-name: derecha;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+    position: relative;
+}
+@keyframes derecha {
+    0%{right: 200vh;}
+    100%{right: 0vh;}
+}
+.momentoizq {
+    position: relative;
+    animation-timing-function: ease-in;
+    animation-name: izquierda;
+    animation-duration: 1.5s;
+}
+@keyframes izquierda {
+    0%{left: 200vh;}
+    100%{left: 0vh;}
+}
+
+ /*CONTACTO*/
+.escribile {
+    background-color: #E83C3D;
+    margin-bottom: 4vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    text-decoration: white;
+}
+.escribile h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12vh;
+    text-decoration: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-decoration: white;
+    position: relative;
+    animation-name: rotacion;
+    animation-duration: 0.8s;
+    animation-iteration-count: 4;
+}
+@keyframes rotacion {
+    0%{rotate: 0deg;font-size: 12vh;}
+    25%{rotate: -15deg;font-size: 14vh;}
+    50% {rotate: 15deg;font-size: 14vh;}
+    75%{rotate: 0deg;font-size: 12vh;}
+}
+.izq {
+    background-image: url(img/marcelocontacto.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 110%;
+}
+.enviarbtn {
+    animation-name: rotbtn;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    position: relative;
+    width: 100%;
+}
+.enviarbtn label {
+    width: 30%;
+}
+form input {
+    width: 100%;
+    padding: 1vh;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 1px 4px #000;
+}
+.msg {
+    height: 15vh;
+}
+form label {
+    width: 100%;
+}
+
+ /*GALERIA*/
+.galeria {
+    background-color: #E83C3D;
+}
+.galeria h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 10vh;
+}
+.galeria p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+}
+.fotos img {
+    padding-bottom: 3vh;
+    width: 100%;
+}
+
+ /*FOOTER*/
+ footer p {
+    text-decoration: white;
+    font-size: 1.7vh;
+}
+.datos {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+ /*ICONOS FOOTER*/
+.icon {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 100%;
+    border: 2px solid white;
+    stroke-dasharray: 10;
+    animation-name: subidafooter;
+    position: relative;
+    transition-duration: .6s;
+}
+@keyframes subidafooter {
+    0% {top: 100px;}
+    100% {top: 0px;}
+}
+.icon:nth-child(1){
+    animation-duration: 2.5s;
+}
+.icon:nth-child(2){
+    animation-duration: 2s;
+}
+.icon:nth-child(3){
+    animation-duration: 1.5s;
+}
+.icon a {
+    color: white;
+    font-size: 4vh;
+    text-decoration: none;
+}
+.icon a :link {
+    color: white;
+}
+.icon a :visited {
+    color: white;
+}
+.icon:hover:nth-child(1) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+    width: 10vh;
+    height: 10vh;
+}
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+    width: 10vh;
+    height: 10vh;
+}
+.icon:hover {
+    background-color: #e60073;
+    box-shadow:  0 0 20px #e60073 ;
+    width: 10vh;
+    height: 10vh;
+}
+
+.icon a :hover {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+}
+.icon a :hover:nth-child(1) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+.icon a :hover :nth-child(2) {
+    background-color: #e60073;
+    box-shadow:  0 0 20px #e60073 ;
+}
+
+/*MEDIAQUIRES*/
+@media (max-width: 992px) {
+    /*HOME*/
+     .muchasgracias h2 br {
+        display: none;
+     }
+     .muchasgracias h2 {
+        font-size: 4em;
+        letter-spacing: 0.5vh;
+     }
+     /*MOMENTOS*/
+     .momento h3 {
+        font-size: 7vh;
+    }
+    .momento p {
+        font-size: 2.2vh;
+    }
+    /*CONTACTO*/
+    .enviarbtn label {
+        width: 50%;
+    }
+    .escribile {
+        padding-right: 2%;
+    }
+
+}
+@media (max-width: 882px) {
+    .muchasgracias img {
+        width: 100% !important;
+    }
+    .muchasgracias h2 {
+        font-size: 3.5em;
+    }
+}
+@media (max-width: 788px) {
+    .muchasgracias h2 {
+        font-size: 3.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    /*HEADER*/
+    header {
+        margin-bottom: 15vh;
+    }
+
+    /*HOME*/
+    .muchasgracias p {
+        font-size: 2.7vh;
+    }
+    .muchasgracias h2 {
+        font-size: 3em;
+        letter-spacing: 0.5vh;
+        width: 100%;
+    }
+    /*GALERIA*/
+    .galeria h2 {
+        font-size: 7vh;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        margin-top: 0%;
+    }
+    .galeria p {
+        font-size: 2.5vh;
+    }
+    .fotos img {
+        width: 80%;
+    }
+    .fotos div {
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /*MOMENTOS*/
+    .momento h3 {
+        font-size: 7vh;
+    }
+    .momento p {
+        font-size: 2.5vh;
+    }
+    .momento img {
+        width: 100%;
+    }  
+    .momento {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .momentoizq {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /*CONTACTO*/
+    .izq h2 {
+        font-size: 7vh;
+    }
+    .izq p {
+        font-size: 2.5vh;
+    }
+    .izq {
+        background-image: none;
+    }
+    /*FOOTER*/
+    footer p {
+        width: 100%;
+        text-align: center;
+        margin-top: 4vh;
+        font-size: 1.5vh;
+    }
+    footer p br {
+        display: none;
+    }
+    .icon {
+        justify-content: end;
+    }
+    /*ICONOS FOOTER*/
+    .icon {
+        width: 7.5vh;
+        height: 7.5vh;
+        animation-name: aparicionfooter;
+    }
+    @keyframes aparicionfooter {
+        0% {left: 300px;}
+        100% {left: 0px;}
+    }
+    .icon a {
+        font-size: 3.5vh;
+    }
+
+}
+
+@media (max-width: 692px) {
+    .muchasgracias h2 {
+        font-size: 2.5em;
+    }
+    .muchasgracias p {
+        font-size: 2.5vh;
+    }
+}
+@media (max-width: 596px) {
+    .muchasgracias h2 {
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width:576px) {
+
+    /*HOME*/
+    .muchasgracias div {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .muchasgracias img {
+        width: 50% !important;
+        display: none;
+    }
+    .muchasgracias p {
+        font-size: 1em;
+    }
+    .vermas {
+        font-size: 1em;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 3%;
+    }
+    /*CONTACTO*/
+    .enviarbtn {
+        width: 100%;
+        text-align: initial;
+    }
+    .enviarbtn label {
+        width: 50%;
+    }
+    /*FOOTER*/
+    .icon {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
