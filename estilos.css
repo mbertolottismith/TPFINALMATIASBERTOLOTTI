@@ -33,7 +33,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 3vh;
     text-decoration: black;
-    text-align: justify;
+    text-align: left;
 }
 
 .vermas {
@@ -53,7 +53,7 @@ header {
 
 /*MOMENTOS*/
 .momento img {
-    width: 80%;
+    width: 95%;
 }
 .momento {
     background-color: #E83C3D;
@@ -68,7 +68,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 2.7vh;
     text-decoration: black;
-    text-align: justify;  
+    text-align: initial;  
 }
 .momentoder {
     animation-name: derecha;
@@ -97,7 +97,7 @@ header {
     margin-bottom: 4vh;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
-    text-decoration: white;
+    text-decoration: black;
 }
 .escribile h2 {
     font-family: 'Bebas Neue', cursive;
@@ -105,7 +105,7 @@ header {
     text-decoration: black;
     margin-top: 0%;
     margin-bottom: 0%;
-    text-decoration: white;
+    text-decoration: black;
     position: relative;
     animation-name: rotacion;
     animation-duration: 0.8s;
@@ -247,6 +247,7 @@ form label {
 }
 
 /*MEDIAQUIRES*/
+
 @media (max-width: 992px) {
     /*HOME*/
      .muchasgracias h2 br {
@@ -339,10 +340,10 @@ form label {
     }
     /*CONTACTO*/
     .izq h2 {
-        font-size: 7vh;
+        font-size: 9vh;
     }
     .izq p {
-        font-size: 2.5vh;
+        font-size: 3vh;
     }
     .izq {
         background-image: none;
